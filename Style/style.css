@@ -55,7 +55,7 @@ ul{
 	margin: auto;
 	display: flex;
 	justify-content: space-around;
-	gap: 60px;
+	gap: 40px;
 }
 
 .large {
@@ -279,12 +279,6 @@ a .logo{
   }
   
   
-  p{
-	font-size: 14px; 
-	color: #0e0e0e; 
-  }
-  
-  
   ::-webkit-input-placeholder {
    color: #a8a8a8;
   }
@@ -304,6 +298,13 @@ a .logo{
   .formulario textarea:focus{
 	outline:0;
 	border: 1px solid #97d848;
+  }
+
+  #cv-btn{
+	  margin: 100px 200px;
+	  color: white;
+	  padding: 15px;
+	  background: #191c32;
   }
 	
 }
@@ -613,6 +614,13 @@ a .logo{
 	outline:0;
 	border: 1px solid #97d848;
   }
+
+  #cv-btn{
+	margin: 100px 650px;
+	color: white;
+	padding: 15px;
+	background: #191c32;
+}
 	
 }
 
