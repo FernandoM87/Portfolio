@@ -60,6 +60,7 @@ ul{
 
 .large {
 	font-size: 20px;
+	display: inline-block;
 }
 
 .btn {
@@ -257,13 +258,6 @@ a .logo{
 	color: #ab4493; 
   }
   
-  
-  .aviso{
-	font-size: 13px;  
-	color: #0e0e0e;  
-  }
-  
-  
   h1{
 	font-size: 39px;  
 	text-align: letf; 
@@ -342,7 +336,7 @@ h4 {
 
 p {
 	font-size: 1rem;
-	margin: 10px 0;
+	margin: 100px 0;
 	line-height: 1.7em;
 }
 
@@ -352,6 +346,13 @@ p {
 
 a {
 	text-decoration: none;
+}
+
+#cv-btn{
+	margin:250px 650px;
+	color: white;
+	padding: 15px;
+	background: #191c32;
 }
 
 /* Utility Classes */
@@ -366,7 +367,7 @@ ul{
 	margin: auto;
 	display: flex;
 	justify-content: space-around;
-	gap: 400px;
+	gap: 60px;
 }
 
 .large {
@@ -385,7 +386,7 @@ ul{
 	border: 1px solid #fff;
 	color: rgb(255, 255, 255);
 	text-transform: uppercase;
-	font-weight: 300;
+	font-weight: 300px;
 }
 
 .btn-outline:hover {
@@ -419,7 +420,6 @@ a .logo{
 	display: flex;
 	justify-content: space-around;
 	list-style: none;
-	float: right;
 }
 
 #navbar ul li a {
@@ -548,7 +548,7 @@ a .logo{
 	margin-bottom: 20px; 
 	margin-top: 10px;   
 	text-transform: uppercase;
-	background-color: #2c2a2b; 
+	background-color: #191c32; 
 	border-color: #857280; 
 	border-style: solid; 
 	border-radius: 10px;  
@@ -565,14 +565,6 @@ a .logo{
   span{
 	color: #41383f; 
   }
-  
-  
-  .aviso{
-	font-size: 13px;  
-	color: #0e0e0e;  
-  }
-  
-  
   h1{
 	font-size: 39px;  
 	text-align: letf; 
@@ -585,14 +577,7 @@ a .logo{
 	font-size: 16px; 
 	padding-bottom: 30px;
 	color: #0e0e0e;   
-  }
-  
-  
-  p{
-	font-size: 14px; 
-	color: #0e0e0e; 
-  }
-  
+  }  
   
   ::-webkit-input-placeholder {
    color: #a8a8a8;
@@ -602,25 +587,6 @@ a .logo{
   ::-webkit-textarea-placeholder {
    color: #a8a8a8;
   }
-  
-  
-  .formulario input:focus{
-	outline:0;
-	border: 1px solid #97d848;
-  }
-  
-  
-  .formulario textarea:focus{
-	outline:0;
-	border: 1px solid #97d848;
-  }
-
-  #cv-btn{
-	margin: 100px 650px;
-	color: white;
-	padding: 15px;
-	background: #191c32;
-}
 	
 }
 
